@@ -1,0 +1,1703 @@
+Id: 2
+Exe stack: 
+[Ref(int) v1
+int cnt
+new(v1,1)
+createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[int cnt
+new(v1,1)
+createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), Ref(int) v1]
+Symbol table: 
+{}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[int cnt
+new(v1,1)
+createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), Ref(int) v1]
+Symbol table: 
+{}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[int cnt
+new(v1,1)
+createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{v1=(0,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[int cnt
+new(v1,1)
+createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{v1=(0,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[new(v1,1)
+createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), int cnt]
+Symbol table: 
+{v1=(0,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[new(v1,1)
+createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), int cnt]
+Symbol table: 
+{v1=(0,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[new(v1,1)
+createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=0, v1=(0,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[new(v1,1)
+createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=0, v1=(0,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), new(v1,1)]
+Symbol table: 
+{cnt=0, v1=(0,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), new(v1,1)]
+Symbol table: 
+{cnt=0, v1=(0,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=0, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[createSemaphore(cnt, rH(v1))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=0, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), createSemaphore(cnt, rH(v1))]
+Symbol table: 
+{cnt=0, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), createSemaphore(cnt, rH(v1))]
+Symbol table: 
+{cnt=0, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))
+fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt), fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))
+acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[acquire(cnt)
+wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[acquire(cnt)
+print((rH(v1)-1))
+release(cnt), fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[acquire(cnt)
+print((rH(v1)-1))
+release(cnt), fork(acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[acquire(cnt)
+print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[acquire(cnt)
+wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[print(rH(v1))
+release(cnt), wH(v1,(rH(v1)*10))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[print(rH(v1))
+release(cnt), wH(v1,(rH(v1)*10))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=1}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[release(cnt), print(rH(v1))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[release(cnt), print(rH(v1))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[3]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 3
+Exe stack: 
+[]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*10))
+wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), wH(v1,(rH(v1)*10))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt), wH(v1,(rH(v1)*10))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=10}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=100}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=100}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=100}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[wH(v1,(rH(v1)*2))
+print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=100}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=100}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[print(rH(v1))
+release(cnt), wH(v1,(rH(v1)*2))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=100}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=100}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[print(rH(v1))
+release(cnt), wH(v1,(rH(v1)*2))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=100}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[print(rH(v1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[release(cnt), print(rH(v1))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[release(cnt), print(rH(v1))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[4]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 4
+Exe stack: 
+[]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt), acquire(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[2]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[print((rH(v1)-1))
+release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[2]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[release(cnt), print((rH(v1)-1))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[2]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[release(cnt), print((rH(v1)-1))]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[2]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200, 199]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[2]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[release(cnt)]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200, 199]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[2]}
+----------------------------------------------------------
+Id: 2
+Exe stack: 
+[]
+Symbol table: 
+{cnt=1, v1=(1,int)}
+Out: 
+[10, 200, 199]
+File table: 
+{}
+Heap table: 
+{1=200}
+Semaphore table: 
+{1=1=[]}
+----------------------------------------------------------

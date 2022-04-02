@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="563.0" prefWidth="1062.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.toylanguagegui.ProgramViewController">
+   <children>
+      <ListView fx:id="StatesList" layoutX="26.0" layoutY="32.0" onMousePressed="#onClick" prefHeight="197.0" prefWidth="200.0" />
+      <ListView fx:id="ExeStackList" layoutX="269.0" layoutY="32.0" prefHeight="197.0" prefWidth="200.0" />
+      <ListView fx:id="OutputList" layoutX="512.0" layoutY="31.0" prefHeight="200.0" prefWidth="200.0" />
+      <TableView fx:id="SymTable" layoutX="26.0" layoutY="282.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="SymTableSym" prefWidth="99.20001411437988" text="Symbol" />
+          <TableColumn fx:id="SymTableVal" prefWidth="99.99999237060547" text="Value" />
+        </columns>
+      </TableView>
+      <TableView fx:id="HeapTable" layoutX="269.0" layoutY="282.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="HeapTableAddr" prefWidth="100.19998168945312" text="Address" />
+          <TableColumn fx:id="HeapTableVal" prefWidth="99.800048828125" text="Value" />
+        </columns>
+      </TableView>
+      <TableView fx:id="FileTable" layoutX="512.0" layoutY="282.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="FileTableId" prefWidth="99.20001220703125" text="ID" />
+          <TableColumn fx:id="FileTableName" prefWidth="100.0" text="File Name" />
+        </columns>
+      </TableView>
+      <Button fx:id="RunButton" layoutX="441.0" layoutY="506.0" mnemonicParsing="false" onAction="#onRun" text="Run" />
+      <Button fx:id="OneStep" layoutX="555.0" layoutY="506.0" mnemonicParsing="false" onAction="#onOneStep" text="One Step" />
+      <Label layoutX="26.0" layoutY="10.0" text="States">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="252.0" text="Symbol table:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="269.0" layoutY="252.0" text="Heap table:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="512.0" layoutY="252.0" text="File table:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="269.0" layoutY="10.0" text="Exe stack:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="512.0" layoutY="10.0" text="Output:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="SemaphoreTable" layoutX="745.0" layoutY="32.0" prefHeight="452.0" prefWidth="299.0">
+        <columns>
+          <TableColumn fx:id="SemaphoreTableAddress" prefWidth="70.20001220703125" text="Address" />
+          <TableColumn fx:id="SemaphoreTablePermits" prefWidth="112.20001220703125" text="NoPermits" />
+            <TableColumn fx:id="SemaphoreTableStates" prefWidth="117.20001220703125" text="States" />
+        </columns>
+      </TableView>
+      <Label layoutX="745.0" layoutY="10.0" text="Semaphore Table:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

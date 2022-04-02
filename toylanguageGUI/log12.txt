@@ -1,0 +1,633 @@
+Id: 12
+Exe stack: 
+[int v
+Ref(int) a
+v=10
+new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a))]
+Symbol table: 
+{}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[Ref(int) a
+v=10
+new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a)), int v]
+Symbol table: 
+{}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[Ref(int) a
+v=10
+new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a)), int v]
+Symbol table: 
+{}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[Ref(int) a
+v=10
+new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a))]
+Symbol table: 
+{v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[Ref(int) a
+v=10
+new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a))]
+Symbol table: 
+{v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[v=10
+new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a)), Ref(int) a]
+Symbol table: 
+{v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[v=10
+new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a)), Ref(int) a]
+Symbol table: 
+{v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[v=10
+new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(0,int), v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[v=10
+new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(0,int), v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a)), v=10]
+Symbol table: 
+{a=(0,int), v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a)), v=10]
+Symbol table: 
+{a=(0,int), v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(0,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[new(a,22)
+fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(0,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a)), new(a,22)]
+Symbol table: 
+{a=(0,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a)), new(a,22)]
+Symbol table: 
+{a=(0,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[print(v)
+print(rH(a)), fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[print(v)
+print(rH(a)), fork(wH(a,30)
+v=32
+print(v)
+print(rH(a)))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[wH(a,30)
+v=32
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[wH(a,30)
+v=32
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[print(rH(a)), print(v)]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[v=32
+print(v)
+print(rH(a)), wH(a,30)]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[print(rH(a)), print(v)]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[v=32
+print(v)
+print(rH(a)), wH(a,30)]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{1=22}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[v=32
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[v=32
+print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[10]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 12
+Exe stack: 
+[]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[10, 30]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[print(v)
+print(rH(a)), v=32]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[10, 30]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[print(v)
+print(rH(a)), v=32]
+Symbol table: 
+{a=(1,int), v=10}
+Out: 
+[10, 30]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=32}
+Out: 
+[10, 30]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[print(v)
+print(rH(a))]
+Symbol table: 
+{a=(1,int), v=32}
+Out: 
+[10, 30]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[print(rH(a)), print(v)]
+Symbol table: 
+{a=(1,int), v=32}
+Out: 
+[10, 30]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[print(rH(a)), print(v)]
+Symbol table: 
+{a=(1,int), v=32}
+Out: 
+[10, 30]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[print(rH(a))]
+Symbol table: 
+{a=(1,int), v=32}
+Out: 
+[10, 30, 32]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[print(rH(a))]
+Symbol table: 
+{a=(1,int), v=32}
+Out: 
+[10, 30, 32]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------
+Id: 13
+Exe stack: 
+[]
+Symbol table: 
+{a=(1,int), v=32}
+Out: 
+[10, 30, 32, 30]
+File table: 
+{}
+Heap table: 
+{1=30}
+----------------------------------------------------------

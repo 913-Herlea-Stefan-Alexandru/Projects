@@ -1,0 +1,126 @@
+Id: 1
+Exe stack: 
+[int v
+v=2
+print(v)]
+Symbol table: 
+{}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 1
+Exe stack: 
+[v=2
+print(v), int v]
+Symbol table: 
+{}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 1
+Exe stack: 
+[v=2
+print(v), int v]
+Symbol table: 
+{}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 1
+Exe stack: 
+[v=2
+print(v)]
+Symbol table: 
+{v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 1
+Exe stack: 
+[v=2
+print(v)]
+Symbol table: 
+{v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 1
+Exe stack: 
+[print(v), v=2]
+Symbol table: 
+{v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 1
+Exe stack: 
+[print(v), v=2]
+Symbol table: 
+{v=0}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 1
+Exe stack: 
+[print(v)]
+Symbol table: 
+{v=2}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 1
+Exe stack: 
+[print(v)]
+Symbol table: 
+{v=2}
+Out: 
+[]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
+Id: 1
+Exe stack: 
+[]
+Symbol table: 
+{v=2}
+Out: 
+[2]
+File table: 
+{}
+Heap table: 
+{}
+----------------------------------------------------------
