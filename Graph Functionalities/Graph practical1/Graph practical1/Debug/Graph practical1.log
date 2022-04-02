@@ -1,0 +1,3 @@
+﻿  service.cpp
+D:\Graph algorithm\Sem2\Graph practical1\Graph practical1\service.cpp(93,20): warning C4018: '<': signed/unsigned mismatch
+  Graph practical1.vcxproj -> D:\Graph algorithm\Sem2\Graph practical1\Debug\Graph practical1.exe

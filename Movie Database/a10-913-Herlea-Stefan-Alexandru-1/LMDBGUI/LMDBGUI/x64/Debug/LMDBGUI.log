@@ -1,0 +1,7 @@
+﻿  moc QtAdmin.h
+  QtAdmin.cpp
+  QtGui.cpp
+  main.cpp
+  moc_QtAdmin.cpp
+  moc_QtGui.cpp
+  LMDBGUI.vcxproj -> D:\OOP\a10-913-Herlea-Stefan-Alexandru-1\LMDBGUI\x64\Debug\LMDBGUI.exe

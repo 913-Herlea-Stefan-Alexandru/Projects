@@ -1,0 +1,1 @@
+We can't generate a graph with 6 vertices and 40 edges
