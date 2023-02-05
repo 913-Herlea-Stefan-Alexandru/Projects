@@ -1,0 +1,7 @@
+D:\VR\volume-renderer-913-Herlea-Stefan-Alexandru\VolumeRenderingApp\VolumeRenderingApp\bin\Debug\VolumeRenderingApp.exe.config
+D:\VR\volume-renderer-913-Herlea-Stefan-Alexandru\VolumeRenderingApp\VolumeRenderingApp\bin\Debug\VolumeRenderingApp.exe
+D:\VR\volume-renderer-913-Herlea-Stefan-Alexandru\VolumeRenderingApp\VolumeRenderingApp\bin\Debug\VolumeRenderingApp.pdb
+D:\VR\volume-renderer-913-Herlea-Stefan-Alexandru\VolumeRenderingApp\VolumeRenderingApp\obj\Debug\VolumeRenderingApp.csproj.AssemblyReference.cache
+D:\VR\volume-renderer-913-Herlea-Stefan-Alexandru\VolumeRenderingApp\VolumeRenderingApp\obj\Debug\VolumeRenderingApp.csproj.CoreCompileInputs.cache
+D:\VR\volume-renderer-913-Herlea-Stefan-Alexandru\VolumeRenderingApp\VolumeRenderingApp\obj\Debug\VolumeRenderingApp.exe
+D:\VR\volume-renderer-913-Herlea-Stefan-Alexandru\VolumeRenderingApp\VolumeRenderingApp\obj\Debug\VolumeRenderingApp.pdb
